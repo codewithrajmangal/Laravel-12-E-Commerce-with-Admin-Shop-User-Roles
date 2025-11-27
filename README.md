@@ -1,61 +1,107 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+🛒 Laravel 12 E-Commerce Platform
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+This is a fully functional Laravel 12 E-Commerce Web Application developed as a practice project.
+The system includes Admin, User, and Shop roles with separate access controls and features.
+It also integrates Khalti Payment API for test transactions and supports Google Login using OAuth.
 
-## About Laravel
+The frontend is powered by Java Kit (npm) and compiled using npm run dev.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+🚀 Features
+🔐 Authentication & Authorization
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Email-based registration and login
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Google Login (OAuth) integration
 
-## Learning Laravel
+Role-based access system
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Admin Panel – manage users, shops, and products
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+Shop Owner Panel – manage own shop and products
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+User Panel – browse products, manage cart, and place orders
 
-## Laravel Sponsors
+💳 Payment Integration
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+Integrated Khalti Payment API (test mode)
 
-### Premium Partners
+Users can perform trial transactions securely
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+🏬 E-Commerce Core
 
-## Contributing
+Products listing, categories, shop pages
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Add to cart, remove, and update cart
 
-## Code of Conduct
+Order placement and order history
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+Shop management (for shop owners)
 
-## Security Vulnerabilities
+Admin dashboard with full control
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+🎨 Frontend (Java Kit + Vite)
 
-## License
+Interactive UI built using Java Kit
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Asset bundling & live reload using Vite:
+
+npm run dev
+
+⚙️ Technologies Used
+
+Laravel 12
+
+MySQL
+
+JavaScript (Java Kit)
+
+Blade Templates
+
+OAuth (Google Login)
+
+Khalti API
+
+Composer & NPM
+
+🗂️ Project Setup
+Clone the repository
+git clone https://github.com/yourusername/your-repo.git
+cd your-repo
+
+Install dependencies
+composer install
+npm install
+npm run dev
+
+Setup environment
+cp .env.example .env
+php artisan key:generate
+
+
+Configure:
+
+Database
+
+Google OAuth credentials
+
+Khalti test keys
+
+Migrate the database
+php artisan migrate
+
+Run server
+php artisan serve
+
+🎯 Purpose of This Project
+
+This project was created for learning and practicing real-world e-commerce application development using modern tools such as:
+
+Role management
+
+Payment API integration
+
+OAuth login
+
+Frontend asset bundling
+
+Multi-panel system (Admin, Shop Owner, Users)
