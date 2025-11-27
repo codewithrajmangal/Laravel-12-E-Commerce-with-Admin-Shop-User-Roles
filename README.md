@@ -65,7 +65,8 @@ Composer & NPM
 
 🗂️ Project Setup
 Clone the repository
-git clone https://github.com/yourusername/your-repo.git
+git clone[ https://github.com/yourusername/your-repo.git](https://github.com/codewithrajmangal/Laravel-12-E-Commerce-with-Admin-Shop-User-Roles.git
+)
 cd your-repo
 
 Install dependencies
